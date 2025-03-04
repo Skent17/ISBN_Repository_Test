@@ -1,3 +1,11 @@
+'''
+Shane Kent
+03/03/2024
+Module 07 Practice Exercise 2
+py testing the converted functions to ensure code works as expected
+
+'''
+
 import pytest
 
 from ISBN import preprocess_isbn, calculate_total_sum, calculate_checksum, is_valid_isbn

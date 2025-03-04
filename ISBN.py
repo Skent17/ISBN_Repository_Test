@@ -1,3 +1,11 @@
+'''
+Shane Kent
+03/03/2024
+Module 07 Practice Exercise 2
+Converted to functions
+
+'''
+
 def preprocess_isbn(isbn):
     isbn = isbn.replace(" ", "")
     return [int(num) for num in isbn]
